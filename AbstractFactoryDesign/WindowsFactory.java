@@ -1,15 +1,14 @@
 
-public class WindowsFactory implements GuiFactory{
+public class WindowsFactory implements GuiFactory {
 
     @Override
     public Checkbox createCheckbox() {
         return new WindowsCheckbox();
     }
-    
+
     @Override
-    public Button createButton() {
+    public ButtonUI createButton() {
         return new WindowsButton();
     }
 
-    
 }

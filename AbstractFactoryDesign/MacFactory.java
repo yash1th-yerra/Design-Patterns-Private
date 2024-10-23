@@ -6,8 +6,8 @@ public class MacFactory implements GuiFactory {
     }
 
     @Override
-    public Button createButton() {
+    public ButtonUI createButton() {
         return new MacButton();
     }
-    
+
 }
