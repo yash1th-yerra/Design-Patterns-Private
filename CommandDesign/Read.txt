@@ -1,0 +1,3 @@
+In this Client is Main.java it creates sender and sender cmds, receiver and receiver cmds.
+
+sender is editor -> it just sends the request i.e. the type of command we want to use 
